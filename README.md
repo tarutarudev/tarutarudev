@@ -76,7 +76,7 @@ skill:
   rust: ██████░░░░ 60%
 
 env:
-  os:     CachyOS(Arch-Based)
+  OS:     CachyOS(Arch-Based)
   editor: VSCode, Fresh
   shell:  Zsh
 
@@ -101,7 +101,7 @@ lua  = "████████░░ 80%"
 rust = "██████░░░░ 60%"
 
 [env]
-os     = "CachyOS(Arch-Based)"
+OS     = "CachyOS(Arch-Based)"
 editor = "VSCode, Fresh"
 shell  = "Zsh"
 
