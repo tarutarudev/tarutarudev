@@ -1,43 +1,90 @@
-## tarutarudev
+<details>
+<summary><b>XML</b></summary>
 
-> I'm a student and indie developer who loves Arch Linux.
-
----
-
-### about
 ```xml
 <?xml version="1.0"?>
 <profile>
-    <name>         tarutarudev         </name>
-    <gender>       Female              </gender> 
-    <skill>        TS, Go, Lua, Rust   </skill>
-    <job>          Student             </job>
+    <main>
+        <name>    tarutarudev  </name>
+        <job>     Student      </job>
+        <gender>  Female       </gender> 
+    </main>
+
+    <skill>
+        <go>   ██████████ 100%  </go>
+        <ts>   ██████████ 100%  </ts>
+        <lua>  ████████░░ 80%   </lua>
+        <rust> ██████░░░░ 60%   </rust>
+    </skill>
+
+    <env>
+        <OS>        CachyOS(Arch-Based)    </OS>
+        <editor>    VSCode, Fresh          </editor>
+        <shell>     Zsh                    </Shell>
+    </env>
+
+    <me>
+        <github> https://github.com/tarutarudev </github>
+    </me>
 </profile>
 ```
+</details>
 
----
+<details>
+<summary><b>JSON</b></summary>
 
-### tech stack
-
-<details open>
-<summary><b>Languages</b></summary>
-    
-```
-Go         ██████████ 100%
-TypeScript ██████████ 100%
-Lua        ████████░░ 80%
-Rust       ██████░░░░ 60%
+```json
+{
+    "profile": {
+        "main": {
+            "name":   "tarutarudev",
+            "job":    "Student",
+            "gender": "Female"
+        },
+        "skill": {
+            "go":   "██████████ 100%",
+            "ts":   "██████████ 100%",
+            "lua":  "████████░░ 80%",
+            "rust": "██████░░░░ 60%"
+        },
+        "env": {
+            "OS":     "CachyOS(Arch-Based)",
+            "editor": "VSCode, Fresh",
+            "shell":  "Zsh"
+        },
+        "me": {
+            "github": "https://github.com/tarutarudev"
+        }
+    }
+}
 ```
 </details>
 
-<details open>
-<summary><b>Tools & Environment</b></summary>
-    
-- **OS:** CachyOS
-- **Editor:** VSCodium, fresh-editor
-- **Shell:** Zsh
-</details>
+<details>
+<summary><b>TSON</b></summary>
 
-## find me
-
-- **GitHub:** [@tarutarudev](https://github.com/tarutarudev)
+```
+{
+  profile: {
+    main: {
+      name:   tarutarudev
+      job:    Student
+      gender: Female
+    }
+    skill: {
+      go:   "██████████ 100%"
+      ts:   "██████████ 100%"
+      lua:  "████████░░ 80%"
+      rust: "██████░░░░ 60%"
+    }
+    env: {
+      OS:     "CachyOS(Arch-Based)"
+      editor: "VSCode, Fresh"
+      shell:  "Zsh"
+    }
+    me: {
+      github: "https://github.com/tarutarudev"
+    }
+  }
+}
+```
