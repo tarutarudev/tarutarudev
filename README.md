@@ -61,36 +61,6 @@
 </details>
 
 <details>
-<summary><b>TSON</b></summary>
-
-```
-{
-  profile: {
-    main: {
-      name:   tarutarudev
-      job:    Student
-      gender: Female
-    }
-    skill: {
-      go:   "██████████ 100%"
-      ts:   "██████████ 100%"
-      lua:  "████████░░ 80%"
-      rust: "██████░░░░ 60%"
-    }
-    env: {
-      OS:     "CachyOS(Arch-Based)"
-      editor: "VSCode, Fresh"
-      shell:  "Zsh"
-    }
-    me: {
-      github: "https://github.com/tarutarudev"
-    }
-  }
-}
-```
-</details>
-
-<details>
 <summary><b>YAML</b></summary>
 
 ```yaml
