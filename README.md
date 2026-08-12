@@ -20,7 +20,7 @@
     <env>
         <OS>        CachyOS(Arch-Based)    </OS>
         <editor>    VSCode, Fresh          </editor>
-        <shell>     Zsh                    </Shell>
+        <shell>     Zsh                    </shell>
     </env>
 
     <me>
@@ -88,3 +88,54 @@
   }
 }
 ```
+</details>
+
+<details>
+<summary><b>YAML</b></summary>
+
+```yaml
+main:
+  name:   tarutarudev
+  job:    Student
+  gender: Female
+
+skill:
+  go:   ██████████ 100%
+  ts:   ██████████ 100%
+  lua:  ████████░░ 80%
+  rust: ██████░░░░ 60%
+
+env:
+  os:     CachyOS(Arch-Based)
+  editor: VSCode, Fresh
+  shell:  Zsh
+
+me:
+  github: https://github.com/tarutarudev
+```
+</details>
+
+<details>
+<summary><b>TOML</b></summary>
+
+```toml
+[main]
+name   = "tarutarudev"
+job    = "Student"
+gender = "Female"
+
+[skill]
+go   = "██████████ 100%"
+ts   = "██████████ 100%"
+lua  = "████████░░ 80%"
+rust = "██████░░░░ 60%"
+
+[env]
+os     = "CachyOS(Arch-Based)"
+editor = "VSCode, Fresh"
+shell  = "Zsh"
+
+[me]
+github = "https://github.com/tarutarudev"
+```
+</details>
